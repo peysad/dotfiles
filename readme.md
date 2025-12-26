@@ -22,7 +22,7 @@ Fully modular and managed using GNU Stow.
 
 Clone the repository:
 
-git clone https://github.com/USERNAME/dotfiles.git
+git clone https://github.com/peysad/dotfiles.git
 cd dotfiles
 
 Code

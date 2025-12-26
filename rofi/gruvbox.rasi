@@ -1,0 +1,18 @@
+* {
+    background: #282828;
+    foreground: #ebdbb2;
+    selected: #458588;
+    border: 0px;
+    padding: 6px;
+    font: "Noto Sans 11";
+}
+
+window {
+    background-color: @background;
+}
+
+element selected {
+    background-color: @selected;
+    foreground: @background;
+}
+

@@ -1,0 +1,38 @@
+set $mod Mod4
+
+font pango:JetBrainsMono Nerd Font 11
+
+# Gruvbox colors
+set $bg #282828
+set $fg #ebdbb2
+set $accent #458588
+
+# Gaps
+gaps inner 10
+gaps outer 10
+
+# Terminal
+bindsym $mod+Return exec alacritty
+
+# Launcher
+bindsym $mod+d exec rofi -show drun
+
+# Kill window
+bindsym $mod+Shift+q kill
+
+# Reload / restart
+bindsym $mod+Shift+c reload
+bindsym $mod+Shift+r restart
+
+# Exit i3
+bindsym $mod+Shift+e exec "i3-msg exit"
+
+# Status bar
+bar {
+    status_command polybar main
+    colors {
+        background $bg
+        statusline $fg
+    }
+}
+
